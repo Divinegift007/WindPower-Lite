@@ -1,0 +1,91 @@
+{
+  "columns": [
+    {
+      "field": "turbine_name",
+      "title": "turbine_name",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 146
+    },
+    {
+      "field": "rated_power_kw",
+      "title": "rated_power_kw",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 166
+    },
+    {
+      "field": "hub_height_m",
+      "title": "hub_height_m",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 150
+    },
+    {
+      "field": "rotor_diameter_m",
+      "title": "rotor_diameter_m",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 178
+    },
+    {
+      "field": "cut_in_mps",
+      "title": "cut_in_mps",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 131
+    },
+    {
+      "field": "rated_mps",
+      "title": "rated_mps",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 126
+    },
+    {
+      "field": "cut_out_mps",
+      "title": "cut_out_mps",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 141
+    },
+    {
+      "field": "cp",
+      "title": "cp",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 71
+    },
+    {
+      "field": "power_curve_json",
+      "title": "power_curve_json",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 480
+    }
+  ],
+  "sort": [
+    {
+      "column": "power_curve_json",
+      "dir": "desc"
+    }
+  ]
+}

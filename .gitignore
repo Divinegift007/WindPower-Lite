@@ -1,0 +1,68 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+wplvenv/
+.venv/
+venv/
+ENV/
+.env
+
+# Package/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Pytest / test cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Local application files
+*.log
+*.tmp
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Data and output artifacts
+meteo_cache/
+results/
+diagnostics/
+maps/
+models/
+figures/
+docs/
+
+# Docker / compose overrides
+docker-compose.override.yml
+
+# Docker files (optional to ignore if you don't want them in the repo)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Optional local config
+local_settings.py
+
+# Ignore generated windpower output if created locally
+windpower_results.csv
+
+demo_results.csv

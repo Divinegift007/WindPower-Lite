@@ -1,0 +1,9 @@
+from windpowerlib import data as wt
+import pandas as pd
+import importlib, inspect, pkgutil, pkgutil, importlib.resources
+
+df = wt.get_turbine_types(print_out=False)
+print('rows:', len(df))
+print(df.columns.tolist())
+print(df.head(10))
+df.to_csv('windpowerlib_turbine_types.csv', index=False)

@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "name": "turbine_name",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "rated_power_kw",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "hub_height_m",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "rotor_diameter_m",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "cut_in_mps",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "rated_mps",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "cut_out_mps",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "cp",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "power_curve_json",
+      "type": "array",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
