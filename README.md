@@ -1,4 +1,9 @@
 # Windpower Lite
+**Author:** Ayeni Divine-gift Adewale  
+**Institution:** University of Ilorin, Department of Computer Science  
+**Supervisor:** Dr. Modinat Abolore Mabayoje  
+**Year:** 2026  
+**Project:** Undergraduate Final Year Project
 
 Windpower Lite is a lightweight, farm‑scale wind‑power estimation toolkit. It combines a
 simple physics‑based baseline with an optional machine‑learning correction layer and
